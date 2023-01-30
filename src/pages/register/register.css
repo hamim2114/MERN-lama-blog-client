@@ -1,0 +1,39 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/733852/pexels-photo-733852.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+}
+.registerTitle{
+    font-size: 50px;
+}
+.registerForm{
+    width: 40vw;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm > label{
+    margin: 10px 0;
+}
+.registerForm > input{
+    padding: 10px;
+    background-color: white;
+}
+.registerForm > input:focus{
+    outline: none;
+}
+.registerbtn{
+    margin-top: 20px;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}

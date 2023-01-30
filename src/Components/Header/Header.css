@@ -1,0 +1,13 @@
+
+.headerTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #444;
+}
+
+.headerImg {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
